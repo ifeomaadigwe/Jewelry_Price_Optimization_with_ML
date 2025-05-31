@@ -1,12 +1,13 @@
 streamlit==1.28.0
 scikit-learn==1.3.0
 pandas==2.1.0
-numpy==1.26.0
-catboost==1.2.2
+numpy==1.24.0
+catboost
 markdown-it-py==3.0.0
 rich==14.0.0
 pygments==2.19.1
 mdurl==0.1.2
+
 
 
 
