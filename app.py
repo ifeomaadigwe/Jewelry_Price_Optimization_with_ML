@@ -1,3 +1,16 @@
+# app.py or streamlit_app.py
+
+import os 
+import subprocess
+import sys
+
+# Install catboost dynamically on Streamlit Cloud if missing
+try:
+    import catboost
+except ImportError:
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "catboost==1.2"])
+    import catboost
+
 
 import streamlit as st
 import pandas as pd
